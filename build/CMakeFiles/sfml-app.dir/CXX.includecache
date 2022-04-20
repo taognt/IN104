@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ensta/IN104/repository/inc/example.h
+
+/home/ensta/IN104/repository/src/main.cpp
+example.h
+/home/ensta/IN104/repository/src/example.h
+SFML/Graphics.hpp
+-
+SFML/Graphics/RenderWindow.hpp
+-
+SFML/Graphics/Shape.hpp
+-
+SFML/Graphics/Texture.hpp
+-
+SFML/Window/Window.hpp
+-
+cstdio
+-
+
